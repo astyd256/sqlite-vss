@@ -19,7 +19,8 @@ if system == 'Darwin':
 elif system == 'Linux':
   if machine not in ['x86_64']:
     raise Exception("unsupported platform")
-#elif system == 'Windows':
+elif system == 'Windows':
+  pass
 else: 
   raise Exception("unsupported platform")
 
